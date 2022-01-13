@@ -1,0 +1,29 @@
+body {
+    font-size: 1.25em;
+}
+.container {
+    margin: 0 auto;
+    max-width: 700px;
+}
+.btn {
+    margin: 2em 200px;
+    width:300px;
+    height:2rem;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    transition: .22s all;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
